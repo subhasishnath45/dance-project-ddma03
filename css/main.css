@@ -264,6 +264,7 @@ body{
     justify-content: center;
     align-items: center;
     float: none;
+    background: var(--orang-color);
 }
 .row6-left {
     display: flex;
@@ -273,6 +274,17 @@ body{
     max-width: 100%;
     width: 50%;
     float: left;
+    background: var(--orang-color);
+}
+.row5-right button, .row6-left button {
+    width: 200px;
+    height: 40px;
+    background-color: var(--grey-color);
+    text-align: center;
+    color: var(--white-color);
+    padding: 5px 50px;
+    margin-left: 80px;
+    border: none;
 }
 .row6-right {
     float: left;
